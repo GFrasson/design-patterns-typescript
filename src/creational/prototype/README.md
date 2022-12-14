@@ -12,6 +12,10 @@ Em vídeo: https://www.youtube.com/watch?v=Z-_smcjkdwM&list=PLbIBj8vQhvm0VY5YrMr
 
 A intenção acima significa que você pode criar objetos protótipos que têm um método específico (`clone`) para clonar seus dados em um novo objeto. Isso evita a recriação de objetos caros ou complexos para serem criados.
 
+ - Pode (ou não) manter um registro de objetos protótipo em um objeto separado;
+ - O método `clone` pode gerar uma *shallow* ou *deep* copy do objeto protótipo;
+ - Evita que o cliente conheça as classes que criam os objetos;
+
 ---
 
 ## Implementação
